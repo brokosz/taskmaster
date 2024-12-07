@@ -36,7 +36,7 @@ Centralizes all tasks in your vault into an easy-to-reference index.
 ### Commands
 
 - `Refresh Taskmaster`: Manually update the index
-- Ribbon icon (checkbox): Same as above
+- Ribbon icon (File with checkmark): Same as above
 
 ### Index Format
 
