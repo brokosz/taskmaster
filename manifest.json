@@ -1,0 +1,9 @@
+{
+  "id": "Taskmaster",
+  "name": "Taskmaster",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Automatically maintain a centralized task index for your Obsidian vault. Quickly view all incomplete tasks across your notes, organized by file and context.",
+  "author": "Brad Rokosz",
+  "isDesktopOnly": false
+}
