@@ -47,8 +47,8 @@ Creates a centralized index of all tasks in your vault.
 Context: Section > Subsection
 - [ ] Task text ([[note.md#5]])
 
-### [[note.md]]
-- [] Another task ([[note.md#10]])
+### [[Another note.md]]
+- [] Another task ([[Another note.md#10]])
 ```
 
 ## Development
