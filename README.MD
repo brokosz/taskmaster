@@ -13,10 +13,9 @@ Creates a centralized index of all tasks in your vault.
 
 ## Installation
 
-1. In Obsidian, go to Settings → Community plugins → Browse
-2. Search for "Taskmaster"
-3. Click Install
-4. Enable the plugin in Community plugins
+1. Download the latest release
+2. Extract to your vault's `.obsidian/plugins` folder
+3. Enable the plugin in Obsidian's Community Plugins settings
 
 ## Usage
 
@@ -29,7 +28,7 @@ Creates a centralized index of all tasks in your vault.
 ### Default Settings
 
 - Task Formats: `- [ ]` and `* [ ]`
-- Index Location: `Task index.md`
+- Index Location: `Taskmaster.md`
 - Auto Refresh: Enabled
 - Include Headers: Enabled
 - Refresh Interval: 5min
