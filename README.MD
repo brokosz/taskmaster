@@ -1,21 +1,21 @@
 # Taskmaster Plugin for Obsidian
 
-Creates a centralized index of all tasks in your vault.
+Centralizes all tasks in your vault into an easy-to-reference index.
 
 ## Features
 
-- Tracks tasks (`- [ ]`, `* [ ]`) across all notes
-- Groups tasks by source note
-- Preserves header context
+- Tracks standard Markdown tasks (`- [ ]`, `* [ ]`) and custom formats across all notes
+- Groups tasks by source note and context
+- Preserves header hierarchy
 - Auto-updates when notes change
-- Configurable task formats
-- Links back to source locations
+- Quick links to source locations
 
 ## Installation
 
-1. Download the latest release
-2. Extract to your vault's `.obsidian/plugins` folder
-3. Enable the plugin in Obsidian's Community Plugins settings
+1. In Obsidian, go to Settings → Community plugins → Browse
+2. Search for "Taskmaster"
+3. Click Install
+4. Enable the plugin in Community plugins
 
 ## Usage
 
@@ -27,7 +27,7 @@ Creates a centralized index of all tasks in your vault.
 
 ### Default Settings
 
-- Task Formats: `- [ ]` and `* [ ]`
+- Task Formats: `- [ ]`, `* [ ]` (plus any custom formats)
 - Index Location: `Taskmaster.md`
 - Auto Refresh: Enabled
 - Include Headers: Enabled
@@ -43,12 +43,13 @@ Creates a centralized index of all tasks in your vault.
 ```markdown
 # Taskmaster
 
-### [[note.md]]
-Context: Section > Subsection
-- [ ] Task text ([[note.md#5]])
+### example.md
+**Context: [[example.md#Project-Planning|Daily Notes > Project Planning]]**
+☐ Review project timeline (L137)
+☐ Update team documentation (L138)
 
-### [[Another note.md]]
-- [] Another task ([[Another note.md#10]])
+### tasks.md
+☐ Contact vendor about delivery (L45)
 ```
 
 ## Development
