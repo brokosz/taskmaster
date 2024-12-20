@@ -52,13 +52,6 @@ Centralizes all tasks in your vault into an easy-to-reference index.
 ☐ Contact vendor about delivery (L45)
 ```
 
-## Development
-
-1. Clone repo
-2. `npm i`
-3. `npm run dev` for development
-4. `npm run build` for production
-
 ## License
 
 MIT
